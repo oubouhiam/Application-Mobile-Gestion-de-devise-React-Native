@@ -22,7 +22,7 @@ mongoose.connect('mongodb+srv://admin:admin@cluster0.f0vfb.mongodb.net/forexApp?
 }).then(()=>{
     console.log('Successfully Connected to the Database');
 }).catch(err =>{
-    console.log('could not connect to the database . Exiting now..',
+    console.log('could not connect to the database',
     process.exit());
 });
 
